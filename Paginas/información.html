@@ -6,7 +6,24 @@
     <title>Información</title>
     <link rel="shortcut icon" href="../img/Logo Ptc.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <style>
+    .service-card {
+      border-radius: 15px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+    }
+    .service-icon {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+    .bg-lightblue {
+      background-color: #cceeff;
+    }
+  </style><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -28,5 +45,65 @@
     </div>
   </div>
 </nav>
+<div class="container my-5">
+    <div class="text-center mb-4">
+      <h6>Nuestras Servicios</h6>
+      <hr class="mx-auto" style="width:60%;">
+    </div>
+
+    <div class="p-4 rounded bg-lightblue mb-5">
+      <p class="mb-0">
+        En <strong>DentaClean</strong> hemos creado servicios  que fueron diseñados para facilitar para satisfacer las necesidades basicas de las clinicas dentales. Nuestro equipo trabajo arduamente para ofrecer herramientras que faciliten el trabajo de clinicas dentales. Desde herramientas que faciliten la insercion de expedientes de los pacientes, y la realizacion de ventas
+      </p>
+    </div>
+
+    <div class="text-center mb-4">
+      <h6>Nuestras Servicios</h6>
+      <hr class="mx-auto" style="width:60%;">
+    </div>
+
+    
+    <div class="row g-4 text-center">
+      <div class="col-md-6 col-lg-3">
+        <div class="card p-3 service-card">
+<center><img src="../img/Diente.png" alt="" width="270px"></center>
+          <h6>Odontograma</h6>
+          <p class="text-muted">Realizacion de Odonograma para pacientes.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card p-3 service-card">
+<center><img src="../img/Venta.png" alt="" width="150px"></center>
+          <h6>Venta</h6>
+          <p class="text-muted">Venta de productos de limpieza bucal.</p>
+        </div>
+      </div>
+   <br>
+      <div class="col-md-6 col-lg-3">
+        <div class="card p-3 service-card">
+           <center><img src="../img/Portafolio.png" alt="" width="150px"></center>
+          <h6>Expedientes</h6>
+          <p class="text-muted">Inserción de expedientes para cada uno de los pacientes.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card p-3 service-card">
+ <center><img src="../img/Calendario.png" alt="" width="150px"></center>
+          <h6>Cita</h6>
+          <p class="text-muted">Capacidad de realizar citas con nuestros dentistas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-light py-3 mt-5">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <strong><span>2025 Derechos reservados &copy; </span></strong>
+      <span><strong>DentaClean</strong></span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
