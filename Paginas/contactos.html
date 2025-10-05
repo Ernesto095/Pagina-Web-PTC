@@ -43,18 +43,18 @@
     <form class="p-4 border rounded shadow-sm bg-light">
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre Completo<span class="text-danger">*</span>:</label>
-        <input type="text" class="form-control" id="nombre" placeholder="Nombre..." required>
+        <input type="text" minlength="3" maxlength="100" required class="form-control" id="nombre" placeholder="Nombre..." required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo se permiten letras y espacios">
       </div>
 
       <div class="mb-3">
         <label for="correo" class="form-label">Correo Electrónico<span class="text-danger">*</span>:</label>
-        <input type="email" class="form-control" id="correo" placeholder="correo@gmail.com" required>
+        <input type="email" minlength="11" maxlength="100" required  class="form-control" id="correo" placeholder="correo@gmail.com" required>
       </div>
 
       <div class="mb-3">
         <label for="telefono" class="form-label">Número de teléfono<span class="text-danger">*</span>:</label>
-        <input type="tel" class="form-control" id="telefono" placeholder="0000-0000" required>
-      </div>
+        <input type="text" minlength="9" maxlength="9" required class="form-control" id="telefono" placeholder="0000-0000" required pattern="[0-9]{4}-[0-9]{4}" title="Formato válido: 0000-0000">
+      </div>     
 
       <div class="mb-3">
         <label for="comentarios" class="form-label">Comentarios:</label>
