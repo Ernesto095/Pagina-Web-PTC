@@ -11,12 +11,14 @@
 </head>
 <body>
     <div class="container">
+      <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.html"><img src="../img/Logo Ptc.png" alt="" width="150px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- Elementos del menú -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
@@ -32,6 +34,7 @@
     </div>
   </div>
 </nav>
+<!-- Sección del formulario de contacto -->
  <div class="container my-5">
 
     <div class="text-center mb-4">
@@ -39,34 +42,35 @@
       <hr class="mx-auto" style="width:60%;">
     </div>
 
-
+<!-- Formulario -->
     <form class="p-4 border rounded shadow-sm bg-light">
+      <!-- Nombre -->
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre Completo<span class="text-danger">*</span>:</label>
         <input type="text" minlength="3" maxlength="100" required class="form-control" id="nombre" placeholder="Nombre..." required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo se permiten letras y espacios">
       </div>
-
+<!-- Correo -->
       <div class="mb-3">
         <label for="correo" class="form-label">Correo Electrónico<span class="text-danger">*</span>:</label>
         <input type="email" minlength="11" maxlength="100" required  class="form-control" id="correo" placeholder="correo@gmail.com" required>
       </div>
-
+<!-- Teléfono -->
       <div class="mb-3">
         <label for="telefono" class="form-label">Número de teléfono<span class="text-danger">*</span>:</label>
         <input type="text" minlength="9" maxlength="9" required class="form-control" id="telefono" placeholder="0000-0000" required pattern="[0-9]{4}-[0-9]{4}" title="Formato válido: 0000-0000">
       </div>     
-
+<!-- Comentarios -->
       <div class="mb-3">
         <label for="comentarios" class="form-label">Comentarios:</label>
         <textarea class="form-control" id="comentarios" rows="3"></textarea>
       </div>
-
+<!-- Botones -->
       <div class="d-flex gap-2">
         <button type="submit" class="btn btn-primary">Enviar</button>
         <button type="reset" class="btn btn-danger">Borrar</button>
       </div>
     </form>
-
+<!-- Mapa -->
     <div class="text-center my-5">
       <h6>Nuestra sucursal</h6>
       <hr class="mx-auto" style="width:50%;">

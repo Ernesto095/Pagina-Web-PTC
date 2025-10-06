@@ -1,6 +1,15 @@
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.service-card {
+      border-radius: 15px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+.service-card:hover {
+     transform: scale(1.05);
 }
-
+.service-icon {
+      font-size: 50px;
+      margin-bottom: 15px;
+}
+.bg-lightblue {
+      background-color: #cceeff;
+ }
